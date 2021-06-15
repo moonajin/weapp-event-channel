@@ -1,0 +1,23 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.params {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+}
+
+.button {
+  margin-top: 40rpx;
+}

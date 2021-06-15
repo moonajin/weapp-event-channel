@@ -1,0 +1,10 @@
+<view class="page">
+  <text class="title">页面2</text>
+  <view class="params">
+    <text>页面1传过来的参数：</text>
+    <text>页码：{{params.page}}</text>
+    <text>数量：{{params.limit}}</text>
+    <text>test：{{params.data}}</text>
+  </view>
+  <button class="button" bindtap="goBack">返回到页面1</button>
+</view>

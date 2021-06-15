@@ -1,0 +1,7 @@
+<view class="page">
+  <text class="title">页面1</text>
+  <view wx:if="{{params}}" class="params">
+    页面2传过来的参数：{{params}}
+  </view>
+  <button type="primary" class="button" bindtap="goList">跳转到页面2</button>
+</view>
